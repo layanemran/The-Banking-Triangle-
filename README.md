@@ -43,7 +43,7 @@ The analytical framework centers on exploring the relationship between SAIBOR mo
 
 For visualization, Tableau was selected due to its advanced interactive features, dynamic filtering, and drill-down capabilities that allow non-technical stakeholders to explore layered insights intuitively. Excel was used extensively for data cleaning, preprocessing, validation, and structural preparation prior to deployment.
 
-From a design perspective, the dashboard adopts a dark-mode interface to reflect a professional FinTech aesthetic, enhance visual contrast of KPIs, and reduce viewer fatigue. The layout follows a hierarchical structure that guides users from macroeconomic indicators to mortgage dynamics and ultimately to banking performance outcomes.
+🎨 UI/UX:From a design perspective, the dashboard adopts a dark-mode interface to reflect a professional FinTech aesthetic, enhance visual contrast of KPIs, and reduce viewer fatigue. The layout follows a hierarchical structure that guides users from macroeconomic indicators to mortgage dynamics and ultimately to banking performance outcomes.
 
 ---
 
