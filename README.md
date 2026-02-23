@@ -67,7 +67,7 @@ From a design perspective, the dashboard adopts a dark-mode interface to reflect
 
 ---
 
-### 3️⃣ BCredit Behavior & Market Adjustment
+### 3️⃣ Credit Behavior & Market Adjustment
 **Purpose:** Focuses on the consumer lending landscape, specifically the mortgage market.
 
 **Insights:** Highlights the impact of interest rates on mortgage financing and provides a detailed breakdown of real estate loans by property type (Villas, Apartments, Land).
