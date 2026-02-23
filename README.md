@@ -30,7 +30,7 @@ Together, these sources enable an integrated analysis of how monetary policy shi
 ## ⚙️ Steps & Methodology
 To transform raw institutional financial data into a structured and strategic dashboard, I followed a multi-stage analytical workflow designed to ensure accuracy, consistency, and clarity.
 
-# 1. Data Cleaning & Transformation
+### 1. Data Cleaning & Transformation
 **Standardization:**
 All monetary values were unified into SAR (Millions/Billions) to maintain consistent scaling across datasets collected from SAMA and Tadawul. This ensured comparability between macroeconomic indicators and bank-level financial performance.
 
@@ -47,7 +47,7 @@ Additional calculated fields included:
 -Demand Deposits
 -Time_Deposits
 
-# 2. Analysis Approach
+### 2. Analysis Approach
 **The Triangle Framework**
 The analytical structure of the dashboard is built around three interconnected pillars:
 
@@ -64,14 +64,14 @@ Rather than presenting isolated KPIs, the dashboard explores the inverse relatio
 
 The goal was not merely to visualize trends, but to reveal how liquidity conditions and rate environments are associated with shifts in credit growth and banking sector performance.
 
-# 3. Tool Selection
+### 3. Tool Selection
 **Tableau:**
 Selected for its advanced interactive capabilities, dynamic filtering, and drill-down features. Tableau allows stakeholders to explore financial metrics across time and categories without technical complexity, supporting clear insight discovery.
 
 **Excel:**
 Used for structured preprocessing, data validation, calculated field creation, and temporal synchronization before visualization deployment.
 
-# 4. Design Decisions (UI/UX)
+### 4. Design Decisions (UI/UX)
 A dark-mode interface was intentionally selected to reflect a professional FinTech environment, enhance visual contrast for key performance indicators, and reduce visual fatigue during extended exploration.
 
 **Navigation Hierarchy:**
