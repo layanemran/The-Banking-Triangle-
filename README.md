@@ -1,84 +1,107 @@
 ![Project Header](images/Header.png)
-## The Banking Triangle 
+# 🏦 The Banking Triangle
 
-This project analyzes the performance of the Saudi banking sector by examining the dynamic relationship between central bank monetary policies and market outcomes. Within the broader framework of Saudi Vision 2030, the financial sector serves as a critical driver of economic transformation and housing market expansion.
+## 📋 Project Overview  
 
-The analysis is structured around a strategic analytical triangle: **monetary policy** (interest rates – SAIBOR), **consumer credit behavior** (mortgage financing), and **institutional profitability** (net banking performance). 
+This project analyzes the performance of the Saudi banking sector by examining the dynamic relationship between central bank monetary policy and market outcomes. Within the broader framework of Saudi Vision 2030, the financial sector serves as a foundational driver of economic transformation and housing market expansion.
 
-The central question addressed by this dashboard is: 
-> "To what extent do fluctuations in interest rates (SAIBOR) influence mortgage financing volumes and the overall profitability of Saudi banks?"
+The analysis is structured around what I define as the “Banking Triangle” — a strategic framework connecting three interdependent pillars: Monetary Policy (interest rates – SAIBOR), Consumer Credit Behavior (mortgage financing trends), and Institutional Profitability (banking sector performance).
 
-By answering this question, the dashboard provides stakeholders with a clear, data-driven visualization of how macroeconomic decisions cascade through the financial system — impacting both individual borrowers and major banking institutions.
+The central question guiding this dashboard is:
 
-## 🗄️Data Source
- The analytical foundation of this project is built on officially published data sourced from the Saudi Central Bank (SAMA) Open Data Portal. This source was selected to ensure institutional reliability and reflect the most accurate macro-financial indicators within the Kingdom.
- To complement the macroeconomic data, financial statements and banking performance reports were also obtained from the Saudi Exchange (Tadawul). This source was used to collect quarterly financial data of listed Saudi banks, including net profits, total assets, and dividend distributions, allowing for a deeper analysis of institutional profitability trends.
+> *To what extent do fluctuations in interest rates (SAIBOR) influence mortgage financing volumes and the overall profitability of Saudi banks?*
 
- The dataset spans from 2021 to 2025 and includes a combination of time-series and categorical financial data, structured into three main components:
-
-1. **Monetary Indicators:** The 3‑month SAIBOR (Saudi Interbank Offered Rate), serving as the benchmark for lending rates.
-2. **Lending Dynamics:** Detailed data on new residential mortgage financing (categorized into Villas, Apartments, and Land) alongside consumer lending activity.
-3. **Banking Performance:** Key financial indicators including Total Assets, Total Deposits, and Quarterly Net Profits across the Saudi banking sector.
-
-Together, these sources enable an integrated analysis of how monetary policy shifts are associated with mortgage financing trends and overall banking sector performance.
+By addressing this question, the dashboard provides stakeholders with a clear, data-driven visualization of how macroeconomic policy decisions cascade through the financial system — influencing both individual borrowers and major financial institutions.
 
 ---
+
+## 📊 Data Source & Reliability  
+
+The analytical foundation of this project is built on officially published data from two primary institutional sources:
+
+**Saudi Central Bank (SAMA)** Open Data Portal — selected for its institutional reliability and authoritative macro-financial indicators.
+
+**Saudi Exchange (Tadawul)** — used to obtain quarterly financial statements of listed Saudi banks, enabling deeper analysis of net profits, total assets, deposits, and dividend trends.
+
+The combined dataset spans from 2022 to 2025 and integrates structured time-series and categorical financial data, allowing for a comprehensive macro-to-micro sector analysis.
+
+
 📂 **Project Assets:**
 * All raw and processed datasets are available in the [data directory](https://github.com/layanemran/The-Banking-Triangle-/tree/main/data).
 
+---
 
-## ⚙️ Steps & Methodology
-To transform raw institutional financial data into a structured and strategic dashboard, I followed a multi-stage analytical workflow designed to ensure accuracy, consistency, and clarity.
+## ⚙️ Methodology & Analytical Approach  
 
-### 1. Data Cleaning & Transformation
-**Standardization:**
-All monetary values were unified into SAR (Millions/Billions) to maintain consistent scaling across datasets collected from SAMA and Tadawul. This ensured comparability between macroeconomic indicators and bank-level financial performance.
+To transform raw institutional data into a structured and strategic financial dashboard, a multi-stage analytical workflow was implemented.
 
-**Time-Series Alignment:**
-Quarterly bank financial reports were carefully realigned with monthly SAIBOR data to construct a synchronized analytical timeline spanning from 2021 to 2025. This alignment was critical for accurately examining temporal relationships between monetary policy changes and banking outcomes.
+First, all monetary values were standardized into SAR (Millions/Billions) to ensure cross-dataset comparability. Because reporting frequencies differed between sources, quarterly bank reports were carefully aligned with monthly SAIBOR data to construct a synchronized analytical timeline.
 
-**Metric Engineering & Data Adjustment**
-Using Excel, I engineered additional calculated fields to enhance analytical depth and ensure data completeness.
+During preprocessing in Excel, calculated fields In instances where certain fourth-quarter data points were partially incomplete, available sub-period values were aggregated and validated against annual summaries to preserve quarterly continuity while maintaining transparency.
 
-Excel was primarily used for data preprocessing, validation checks, structural organization, and controlled metric engineering prior to visualization deployment.
-During preprocessing, certain Q4 values were partially incomplete in the published datasets. To maintain quarterly continuity and analytical consistency, I aggregated available sub-period values where appropriate and validated them against annual summaries .
+The analytical framework centers on exploring the relationship between SAIBOR movements and mortgage financing volumes, particularly during tightening cycles. Rather than presenting isolated KPIs, the dashboard is structured to reveal how liquidity conditions and interest rate environments are associated with changes in credit demand and institutional profitability.
 
-Additional calculated fields included:
--Demand Deposits
--Time_Deposits
+For visualization, Tableau was selected due to its advanced interactive features, dynamic filtering, and drill-down capabilities that allow non-technical stakeholders to explore layered insights intuitively. Excel was used extensively for data cleaning, preprocessing, validation, and structural preparation prior to deployment.
 
-### 2. Analysis Approach
-**The Triangle Framework**
-The analytical structure of the dashboard is built around three interconnected pillars:
+From a design perspective, the dashboard adopts a dark-mode interface to reflect a professional FinTech aesthetic, enhance visual contrast of KPIs, and reduce viewer fatigue. The layout follows a hierarchical structure that guides users from macroeconomic indicators to mortgage dynamics and ultimately to banking performance outcomes.
 
-1- Monetary Policy (Interest Rates – SAIBOR)
+---
 
-2- Consumer Credit Behavior (Mortgage Financing Trends)
+## 🖼️ Dashboard Preview  
 
-3- Institutional Performance (Bank Profitability & Assets Growth)
+### 1️⃣ The Strategic Gateway (Home)
+**Purpose:** Establishes the visual identity and provides an executive summary of key performance indicators (KPIs).
 
-"This framework enables a layered understanding of how macro-level policy decisions cascade into consumer financing behavior and ultimately impact institutional financial strength."
+**Key Metrics:** Showcases high-level summaries including Total Net Profit (SAR 183.9M), Average Stock Price, and Total Deposits (SAR 22.35B).
 
-**Relationship Exploration:**
-Rather than presenting isolated KPIs, the dashboard explores the inverse relationship between SAIBOR movements and mortgage financing volumes to assess market sensitivity during tightening cycles.
+![Overview](./images/Home.png)
 
-The goal was not merely to visualize trends, but to reveal how liquidity conditions and rate environments are associated with shifts in credit growth and banking sector performance.
+---
 
-### 3. Tool Selection
-**Tableau:**
-Selected for its advanced interactive capabilities, dynamic filtering, and drill-down features. Tableau allows stakeholders to explore financial metrics across time and categories without technical complexity, supporting clear insight discovery.
+### 2️⃣ Mortgage & Credit Dynamics  
+*Visualizing changes in housing financing across property types (Villas, Apartments, Land).*
 
-**Excel:**
-Used for structured preprocessing, data validation, calculated field creation, and temporal synchronization before visualization deployment.
+![Mortgage Analysis](./images/mortgage.png)
 
-### 4. Design Decisions (UI/UX)
-A dark-mode interface was intentionally selected to reflect a professional FinTech environment, enhance visual contrast for key performance indicators, and reduce visual fatigue during extended exploration.
+---
 
-**Navigation Hierarchy:**
-The dashboard layout was structured hierarchically, guiding the viewer from macroeconomic indicators toward micro-level banking performance. A custom navigation bar was implemented to simulate a professional analytics platform interface, enabling intuitive movement between sections (Overview, Mortgage Dynamics, Profitability).
+### 3️⃣ Banking Performance Analysis  
+*Examining profitability, assets growth, and deposit composition.*
 
-**Clarity & Accessibility:**
-All tooltips and labels were refined to explain complex financial metrics in clear, professional English suitable for non-technical stakeholders. The objective was to ensure that the dashboard remains both analytically rigorous and easy to interpret.
+![Bank Performance](./images/performance.png)
+
+---
+
+### 🔗 Live Interactive Dashboard
+Experience the full interactivity of this analysis on Tableau Public:
+👉 **[View Live Dashboard on Tableau Public](https://public.tableau.com/views/TheBankingTriangle/Home?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+
+
+---
+
+## ⚠️ Assumptions & Limitations  
+
+While the dashboard provides a structured macro-financial interpretation, certain limitations apply:
+
+- SAIBOR is treated as a primary proxy for monetary policy impact, although additional macroeconomic factors also influence mortgage demand.
+- Some partially incomplete Q4 data required aggregation from available sub-period values to maintain continuity.
+- The analysis identifies observable associations and trends rather than establishing direct causal relationships.
+
+---
+
+## 💡 Key Insights & Strategic Implications  
+
+The analysis reveals several meaningful patterns across the Saudi banking sector between 2021 and 2025:
+
+- **Rate Sensitivity:** Rising SAIBOR levels correspond with moderation in mortgage financing volumes, particularly in residential segments.
+- **Profit Resilience:** Despite credit volatility during tightening cycles, banking sector profitability remained relatively resilient, likely supported by improved margins.
+- **Adaptive Liquidity:** Shifts between demand and time deposits reflect adaptive liquidity management within the banking system during policy transitions.
+
+From a strategic perspective, stakeholders should closely monitor interest rate cycles when forecasting mortgage demand while maintaining focus on balance sheet resilience and long-term institutional stability.
+
+
+
+
 
 
 
