@@ -10,7 +10,7 @@ The central question addressed by this dashboard is:
 
 By answering this question, the dashboard provides stakeholders with a clear, data-driven visualization of how macroeconomic decisions cascade through the financial system — impacting both individual borrowers and major banking institutions.
 
-## Data Source
+## 🗄️Data Source
  The analytical foundation of this project is built on officially published data sourced from the Saudi Central Bank (SAMA) Open Data Portal. This source was selected to ensure institutional reliability and reflect the most accurate macro-financial indicators within the Kingdom.
  To complement the macroeconomic data, financial statements and banking performance reports were also obtained from the Saudi Exchange (Tadawul). This source was used to collect quarterly financial data of listed Saudi banks, including net profits, total assets, and dividend distributions, allowing for a deeper analysis of institutional profitability trends.
 
