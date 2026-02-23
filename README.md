@@ -37,7 +37,7 @@ To transform raw institutional data into a structured and strategic financial da
 
 First, all monetary values were standardized into SAR (Millions/Billions) to ensure cross-dataset comparability. Because reporting frequencies differed between sources, quarterly bank reports were carefully aligned with monthly SAIBOR data to construct a synchronized analytical timeline.
 
-During preprocessing in Excel, calculated fields In instances where certain fourth-quarter data points were partially incomplete, available sub-period values were aggregated and validated against annual summaries to preserve quarterly continuity while maintaining transparency.
+During preprocessing in Excel, certain fourth-quarter data points were partially incomplete. In such cases, available sub-period values were aggregated and validated against annual summaries to preserve quarterly continuity.
 
 The analytical framework centers on exploring the relationship between SAIBOR movements and mortgage financing volumes, particularly during tightening cycles. Rather than presenting isolated KPIs, the dashboard is structured to reveal how liquidity conditions and interest rate environments are associated with changes in credit demand and institutional profitability.
 
@@ -99,6 +99,7 @@ While the dashboard provides a structured macro-financial interpretation, certai
 
 - SAIBOR is treated as a primary proxy for monetary policy impact, although additional macroeconomic factors also influence mortgage demand.
 - Some partially incomplete Q4 data required aggregation from available sub-period values to maintain continuity.
+- The analysis identifies associations rather than establishing direct causal relationships.
 
 ---
 
