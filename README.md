@@ -58,17 +58,30 @@ From a design perspective, the dashboard adopts a dark-mode interface to reflect
 
 ---
 
-### 2️⃣ Mortgage & Credit Dynamics  
-*Visualizing changes in housing financing across property types (Villas, Apartments, Land).*
+### 2️⃣ Monetary Policy & Liquidity Dynamics
+**Purpose:** Analyzes the correlation between interest rate fluctuations (SAIBOR) and market liquidity.
 
-![Mortgage Analysis](./images/mortgage.png)
+**Analysis:** Visualizes Money Supply Growth against interest rate changes and tracks the reallocation of deposits between current accounts and savings in a high-rate environment.
+
+![Mortgage Analysis](./images/Monetary_Policy.png)
 
 ---
 
-### 3️⃣ Banking Performance Analysis  
-*Examining profitability, assets growth, and deposit composition.*
+### 3️⃣ BCredit Behavior & Market Adjustment
+**Purpose:** Focuses on the consumer lending landscape, specifically the mortgage market.
 
-![Bank Performance](./images/performance.png)
+**Insights:** Highlights the impact of interest rates on mortgage financing and provides a detailed breakdown of real estate loans by property type (Villas, Apartments, Land).
+
+![BCredit Behavior](./images/Credit_Behavior.png)
+
+---
+
+### 4️⃣ Bank Performance & Risk Assessment
+**Purpose:** Evaluates the institutional health and efficiency of the Saudi banking sector.
+
+**Detailed View:** Tracks Net Profit vs. SAIBOR, Lending Efficiency (LDR), and Credit Quality (NPL Ratios) across major institutions like SNB, Al Rajhi, and Alinma.
+
+![Bank Performance](./images/Risk_Profit.png)
 
 ---
 
@@ -85,13 +98,12 @@ While the dashboard provides a structured macro-financial interpretation, certai
 
 - SAIBOR is treated as a primary proxy for monetary policy impact, although additional macroeconomic factors also influence mortgage demand.
 - Some partially incomplete Q4 data required aggregation from available sub-period values to maintain continuity.
-- The analysis identifies observable associations and trends rather than establishing direct causal relationships.
 
 ---
 
 ## 💡 Key Insights & Strategic Implications  
 
-The analysis reveals several meaningful patterns across the Saudi banking sector between 2021 and 2025:
+The analysis reveals several meaningful patterns across the Saudi banking sector between 2022 and 2025:
 
 - **Rate Sensitivity:** Rising SAIBOR levels correspond with moderation in mortgage financing volumes, particularly in residential segments.
 - **Profit Resilience:** Despite credit volatility during tightening cycles, banking sector profitability remained relatively resilient, likely supported by improved margins.
