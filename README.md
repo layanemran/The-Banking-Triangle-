@@ -16,12 +16,12 @@ By answering this question, the dashboard provides stakeholders with a clear, da
 
  The dataset spans from 2021 to 2025 and includes a combination of time-series and categorical financial data, structured into three main components:
 
-1. **Monetary Indicators: The 3‑month SAIBOR (Saudi Interbank Offered Rate), serving as the benchmark for lending rates.
-2. **Lending Dynamics: Detailed data on new residential mortgage financing (categorized into Villas, Apartments, and Land) alongside consumer lending activity.
-3. *Banking Performance: Key financial indicators including Total Assets, Total Deposits, and Quarterly Net Profits across the Saudi banking sector.
+1. **Monetary Indicators:** The 3‑month SAIBOR (Saudi Interbank Offered Rate), serving as the benchmark for lending rates.
+2. **Lending Dynamics:** Detailed data on new residential mortgage financing (categorized into Villas, Apartments, and Land) alongside consumer lending activity.
+3. **Banking Performance:** Key financial indicators including Total Assets, Total Deposits, and Quarterly Net Profits across the Saudi banking sector.
 
 Together, these sources enable an integrated analysis of how monetary policy shifts are associated with mortgage financing trends and overall banking sector performance.
 
 ---
 📂 **Project Assets:**
-* All raw and processed datasets are available in the `data/` directory of this repository .
+* All raw and processed datasets are available in the `[View Data Folder](./data/)` directory of this repository .
