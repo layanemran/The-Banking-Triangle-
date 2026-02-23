@@ -83,7 +83,7 @@ From a design perspective, the dashboard adopts a dark-mode interface to reflect
 
 ![Bank Performance](./images/Risk_Profit.png)
 
-**"For the institutional analysis, SNB, Al Rajhi, and Alinma were selected as representative benchmarks. Together, they account for a significant market share of the Saudi banking sector, representing a diverse mix of traditional and Islamic banking models, as well as a major portion of the Kingdom's total mortgage portfolio."*
+> *"For the institutional analysis, SNB, Al Rajhi, and Alinma were selected as representative benchmarks. Together, they account for a significant market share of the Saudi banking sector, representing a diverse mix of traditional and Islamic banking models, as well as a major portion of the Kingdom's total mortgage portfolio."*
 ---
 
 ### 🔗 Live Interactive Dashboard
