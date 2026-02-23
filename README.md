@@ -24,4 +24,5 @@ Together, these sources enable an integrated analysis of how monetary policy shi
 
 ---
 📂 **Project Assets:**
-* All raw and processed datasets are available in the [data](./data) directory of this repository.
+* All raw and processed datasets are available in the [data directory](https://github.com/layanemran/The-Banking-Triangle-/tree/main/data).
+
